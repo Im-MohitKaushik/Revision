@@ -1,0 +1,4 @@
+question ----  How java managed to be platform-independent explain?
+
+ans----- as java convert all his code into bytes and this compiled code is then runed by a virtual machine which doesn,t 
+	care what platform r u using ,.,. its just run the compiled code . 
