@@ -1,0 +1,4 @@
+QUESTION ---What is the difference between the static and the non-static variables of a class explain it with an example?
+
+static variables are like global variables which are avl. to all methods.
+But to accesss non-static variables we must  make  object.   
