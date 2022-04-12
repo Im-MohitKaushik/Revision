@@ -1,6 +1,6 @@
 package sprint1Day4;
 
-public class question4 {
+public class Question4 {
 
 	public void oddDetect(int x) {
 		if(x<0) {
@@ -19,10 +19,10 @@ public class question4 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		question4 fn1=new question4();
+		Question4 fn1=new Question4();
 		
-		fn1.oddDetect(-26);
-		
+		fn1.oddDetect(-12);
+
 	}
 
 }

@@ -1,35 +1,31 @@
 package sprint1Day4;
 
-public class demo {
-	
-	
-	public void demo() {
-		
+public class Demo {
+
+	public Demo() {
+		this(10);
 		System.out.println("inside demo()");
 	}
 
-	public void demo(int x) {
-		demo();
-		System.out.println("inside demo(int x2)");
+	public Demo(int x) {
+		this((double) 10);
+		System.out.println("inside demo(int x)");
 	}
-	
-	public void demo(double d) {
-		demo(10);
+
+	public Demo(double d) {
+		this("ankit");
 		System.out.println("inside demo(double d)");
 	}
 
-	public void demo(String str) {
-		demo((double)12);
+	public Demo(String str) {
+		
 		System.out.println("inside demo(String s)");
 	}
 
-
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		demo d1=new demo();
-		d1.demo("ankit");
-				
+		new Demo();
+
 	}
 
 }

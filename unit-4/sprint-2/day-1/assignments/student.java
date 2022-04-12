@@ -1,6 +1,6 @@
 package sprint1Day4;
 
-public class student {
+public class Student {
 //	roll: Integer name: String age: Integer marks: Integer
 
 	private int roll;
@@ -8,7 +8,7 @@ public class student {
 	private String age;
 	private int marks;
 
-	public student() {
+	public Student() {
 		// zero argument constructor
 	}
 
@@ -16,7 +16,7 @@ public class student {
 		return roll;
 	}
 
-	public student(int roll, String name, String age, int marks) {
+	public Student(int roll, String name, String age, int marks) {
 		super();
 		this.roll = roll;
 		this.name = name;
@@ -71,7 +71,7 @@ public class student {
 	}
 
 	public static void main(String[] args) {
-		student s1 = new student();
+		Student s1 = new Student();
 		// //using zero argument constructor
 		s1.setRoll(12);
 		s1.setName("ankit");
@@ -81,12 +81,12 @@ public class student {
 		s1.showDetails();
 		System.out.println("-----------------------------------------------------------");
 //		  //using parameterized constructor 
-		student s2 = new student(13, "ankur", "24", 400);
+		Student s2 = new Student(13, "ankur", "24", 400);
 		System.out.println("name is:" + s2.getName());
 		System.out.println("rollno  is:" + s2.getRoll());
 		System.out.println("age is:" + s2.getAge());
 		System.out.println("marks is:" + s2.getMarks());
-
+		
 	}
 
 }
