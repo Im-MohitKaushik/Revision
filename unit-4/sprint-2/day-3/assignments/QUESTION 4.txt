@@ -1,0 +1,10 @@
+What is the use of ‘this’ and ‘super’ keyword in java explain with example. ????
+
+
+
+*  “super” and “this” in Java are two predefined keywords, that cannot be used as an identifier.
+*  “super” in Java is used to refer to methods, static and instance variables, constructors of an immediate parent class.
+*  “this” in Java is used to refer to methods, static and instance variables, constructors of a current class.
+*  If we include “this()” or “super()” inside the constructor, it must be the first statement inside it.
+*  “this()” and “super()” cannot be used inside the same constructor, as both cannot be executed at once (both cannot be the first statement).
+*  “this” can be passed as an argument in the method and constructor calls.
