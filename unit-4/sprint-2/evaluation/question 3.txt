@@ -1,0 +1,17 @@
+Explain about String, StringBuffer, and StringBuilder class with an example. Explain also about toString() method in java.????
+
+String --- immutable 
+
+string buffer and string builder --- mutable
+
+string buffer takes more time to implement .
+string builder take less time to implement. 
+
+
+
+
+
+
+
+toString() method --- this method returns the String contatication of any parameters passed into it;
+
