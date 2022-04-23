@@ -82,7 +82,7 @@ public class Demo {
 		System.out.println("username is : " + c.getUsername());
 		System.out.println("user passwrod is  :" + c.getPassword());
 		System.out.println("user mobile number is : " + c.getMobileNumber());
-		System.out.println("user email is :  " + c.getMobileNumber());
+		System.out.println("user email is :  " + c.getEmail());
 
 	}
 
