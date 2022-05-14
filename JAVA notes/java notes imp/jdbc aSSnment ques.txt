@@ -1,0 +1,50 @@
+
+
+Q1. Write the steps involved in connecting any java application with the database using JDBC 
+
+ans------steps to connect our java app with the mysql db server:
+==========================================
+​
+step 1: collect or download the jdbc driver jar file and add that jar file to the classpath of our project.
+​
+step 2: load the jdbc driver related main class into the memory.
+​
+"com.mysql.cj.jdbc.Driver"
+​
+​
+each jdbc driver has diff main class :
+for oracle:
+​
+"oracle.jdbc.driver.OracleDriver"
+​
+example:
+​
+Class.forName("com.mysql.cj.jdbc.Driver");
+​
+​
+​
+​
+​
+step 3: prepare the connection string/url
+​
+String url = "jdbc:mysql://localhost:3306/web16db";
+​
+step 4: establish the connection
+​
+​
+Driver
+​
+​
+step 5: after performing the CRUD operation close the DB connection
+
+
+
+
+Q2. Difference between PreparedSatement and statement
+
+	
+	statement me agr single use h to bs usi ke le use kreinge .,.,.
+	but	prepared statement me bind krke rkh lete h br br use krne ke lie ,.,.
+	statememnt interface  ka hi implementation hai preparedStatement ;
+
+
