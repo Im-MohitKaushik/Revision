@@ -1,0 +1,100 @@
+Q1) Write the difference between JRE, JDK and JVM?
+
+ans -- JDK software is used for developing and executing Java applications.
+
+	JDK = (JRE + Development tools like java compiler, debugger, etc.)
+ 	JRE = (JVM + Predefined Library classes)
+jvm is platform independent 
+
+jdk and jre are platform dependent .
+
+jre -- environemnt create for code execution.
+jdk -- code execution and development .
+
+
+-------------------------------------------------------------------------------------------------------------------
+Q2) Write the difference between JSE, JEE and JME?
+ans---jse--Java Standard Edition-- core Java platform, it is a specification, 
+which contains the core libraries to develop standalone, networking, database, 
+GUI, multithreaded types of applications. 
+In addition to the core API, the Java SE platform consists of the virtual machine,
+development tools, deployment technologies and other class libraries and toolkit 
+commonly used in Java application.
+
+Java Enterprise Edition (JEE) The Java EE platform provides an API and runtime environment 
+for developing and running large-scale, multi-tiered, scalable, reliable, and secure network applications.
+
+Java Micro Edition (JME) It is a subset of Java SE, designed used for microdevices and embedded
+ development like mobile phones, sensors, micro-controller, TV set-top boxes etc.
+
+
+=----------------------------------------------------------------------------------------------------------------------
+Q3) How does java achieve platform independency?
+
+ans =----Java source code is compiled and converted into bytecode. this bytecode can run on multiple platforms i.e. 
+Write Once and Run Anywhere(WORA),
+ we can compile the java code in one Operating System and execute it on another Operating System.
+
+-----------------------------------------------------------------------------------------------------------------------
+Q4) What are features of Java and explain them?
+
+ans ---
+*** Simple:- Java is easy to learn and its syntax is quite simple,
+ clean and easy to understand. 
+
+*** Object-Oriented:- Java is object-oriented
+ it supports all the OOPS characteristics. This makes java applications easy to develop and maintain,
+ compared to structured programming language.
+
+ *** Portable and Platform Independent:- Java source code is
+ compiled and converted into bytecode. this bytecode can run on multiple platforms i.e. Write Once and Run Anywhere(WORA)
+ we can compile the java code in one Operating System and execute it on another Operating System.
+
+
+***  Secure:- JAVA has provided an implicit component inside JVM in the form of a “Security Manager”  to provide implicit security against malicious code. 
+Java has provided very good predefined implementations for almost all well-known network security.
+ JAVA has provided a separate middleware service in JAAS [Java Authentication and Authorization Service], which provides web security. Auth, SSO.
+
+
+*** Robust:- Robust means strong. Java is having a very good memory management system in the form of a heap memory management system,
+ it is a dynamic memory management system, it allocates and deallocates memory for the objects at runtime.
+ JAVA is having very good Exception Handling mechanisms, because, Java has provided a very good predefined library
+ to represent and handle almost all the frequently generated exceptions in java applications.
+
+
+*** Multithreaded:- Java supports multithreading to enhance performance. by using this we can execute multiple functionalities simultaneously.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q5) Write a Java Application which prints your details?
+
+						CODE
+ans ----------------------------------------------------------------------------------------------------------------------------------------------
+package com.practice;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Name : ankit singh yadav" );
+		System.out.println("Father’s Name :Ram prakash singh" );
+		System.out.println("Mother ‘s Name : Manju singh" );
+		System.out.println("Age : 25" );
+		System.out.println("Gender : MALE" );
+		System.out.println("Address : Ram prakash Fauji (madhuwan colony) , Tilhar , near J.D SINGH INTER COLLEGE , spn , U.P pin -242307" );
+		System.out.println("Mobile No. : 9984746267" );
+	}
+
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+						OUTPUT
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Name : ankit singh yadav
+Father’s Name :Ram prakash singh
+Mother ‘s Name : Manju singh
+Age : 25
+Gender : MALE
+Address : Ram prakash Fauji (madhuwan colony) , Tilhar , near J.D SINGH INTER COLLEGE , spn , U.P pin -242307
+Mobile No. : 9984746267
+--------------------------------------------------------------------------------------------------------------------------------------
