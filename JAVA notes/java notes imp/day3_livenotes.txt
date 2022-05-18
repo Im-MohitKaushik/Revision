@@ -1,0 +1,113 @@
+inside a class :
+
+1. count the members (variables  +  methods) 
+
+2. static and non-static
+
+Demo.java: 
+Demo.class: 
+
+---load all the static members inside the RAM so that they will be available to the CPU for execution, here non-static members will there inside the harddisk only.
+
+--among all the static members, jvm will find out the main method and call the method to execute our application.
+
+
+static loading : entire application will be loaded into the RAM, after being loaded it may or may not execute.
+
+c program follows static loading
+
+
+1000 variables
+
+500()
+
+1 function
+
+dynamic loading: only required part will be loaded into the RAM,(static members)  : we can load the non-static members dynmically into the RAM
+
+Java follows dynamic loading.
+
+
+by creating object of a class , we can load all the non-static members inside the RAM dynamically.
+
+Demo d1 = new Demo();
+
+1. while loading the non-static methods : only method name and singnature and address of the method will be loaded.
+
+2. while loading the variables: if the variable does not have a value, they will get the default value.
+
+
+Demo d1 =  ?
+
+here 3 possible values are there:
+
+1. same class object 
+
+Demo d1 = new Demo();
+
+2. its child class object.
+
+Demo d1 = new DemoChild();
+
+3. default value of a reference variable
+
+Demo d1 = null;
+
+Note: one obj can be pointed/refereenced by multiple variables. but reverse is not true
+
+***If any object is not referenced by any reference variable, then that object will be treated as garbage.
+
+--in java there is a seperate process is running continiusly i.e Garbage collector. it will kill the unreferenced object from the heap(RAM) and free the memory.
+
+
+state of an object   : data present in that object at that moment of time is known as state of an object
+behaviour of an object : functionlities applicable to that object is known as behaviour of an object.
+
+All the non-static members are sharable.
+
+non-static from static area : to access the non-static from the static area we need to create an object.
+
+
+to call a static member of class from the main method of the same class we have 3 options:
+
+1.we can access directly, without any reff.
+
+2. by using object of that class.
+
+3.by using classname .(dot)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
