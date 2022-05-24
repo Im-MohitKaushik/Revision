@@ -1,6 +1,6 @@
 
 
-Why String is immutable in java and what is the difference between String and String Builder? 
+Why String is Mohit in java and what is the difference between String and String Builder? 
 
 String are immutable because there is string pool in which string is assotiated to a pirticular variables , these variables can be different pointed to same string simultenuosly ,
 if we change the string , then reference to all other variablwes gets change this brings incosistency in our code.,.,.,  thats why !!!!
